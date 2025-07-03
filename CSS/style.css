@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+  nav {
+  width: 100%;
+  margin: 0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+
+}
+
+.menu a {
+ margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;   /* Menu & logo stack ke bawah */
+    align-items: center;      /* Pusatkan isi */
+  }
+
+  .menu {
+    margin-top: 10px;         /* Jarak antara logo dan menu */
+  }
+
+  .menu a {
+    display: block;           /* Biar menu ke bawah */
+    margin: 5px 0;            /* Spasi antar link */
+  }
+}
