@@ -13,7 +13,7 @@
         <img src="Revou.jpeg" alt="Logo Portofolio" />
       </div>
       <div class="menu">
-        <a href="Home.html">Home</a>
+        <a href="Home.html">Back</a>
         <a href="#About-me">About me</a>
         <a href="#Experience">Experience</a>
         <a href="#Message">Message</a>
@@ -85,12 +85,77 @@
         </div>
       
     <section id="Experience"></section>
-    <section id="Message"></section>
+
+    <hr/>
+    <section id="Message" class="p-10 m-5">
+      <br/>
+      <div class="bg-black bg-opacity-40 p-10 rounded-2xl shadow-2xl max-w-md w-full transition-transform duration-300 hover:scale-105">
+  <h1 class="text-3xl font-bold text-white mb-6 drop-shadow-lg">Send a message</h1>
+  
+  <form class="space-y-4 text-left">
+    <!-- Name -->
+    <div>
+      <label class="block text-white mb-1 font-medium">Name</label>
+      <div class="flex gap-2 text-white">
+        <input type="text" placeholder="First" id="name-Input" name="name"
+          class="text-white w-1/2 px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+        <input type="text" placeholder="Last"
+          class="w-1/2 px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="text-white">
+      <label class="block text-white mb-1 font-medium">Email</label>
+      <input type="email" placeholder="name@gmail.com"
+        class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+    </div>
+
+    <!-- Tanggal Lahir -->
+    <div class="text-white">
+      <label class="block text-white mb-1 font-medium">Tanggal Lahir</label>
+      <input type="date"
+        class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+    </div>
+
+    <!-- Jenis Kelamin -->
+    <div class="text-white">
+      <label class="block text-white mb-1 font-medium">Jenis Kelamin</label>
+      <div class="flex items-center gap-4 text-white">
+        <label class="flex items-center gap-2">
+          <input type="radio" name="gender" value="Laki-Laki" class="accent-green-500"/> Laki-Laki
+        </label>
+        <label class="flex items-center gap-2">
+          <input type="radio" name="gender" value="Perempuan" class="accent-green-500"/> Perempuan
+        </label>
+      </div>
+    </div>
+
+    <!-- Pesan -->
+    <div class="text-white">
+      <label class="block text-white mb-1 font-medium">Pesan</label>
+      <textarea rows="4" placeholder="Tuliskan komentar kamu disini!"
+        class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit"
+      class="w-full bg-yellow-400 text-black font-semibold px-4 py-2 rounded hover:bg-yellow-500 hover:shadow-lg transition" onclick="validationForm();">
+      Submit
+    </button>
+  </form>
+<aside id="thankYouMessage" class="hidden mt-6 py-4 px-6 text-center text-green-700 bg-white bg-opacity-80 rounded-xl shadow-md max-w-md mx-auto">
+    <p class="font-semibold text-lg">Thank you for your message!</p>
+  </aside>
+</div>
+
+    </section>
 
   </main>
 
   <footer>
-    <!-- Footer di sini -->
+    Created by Kaylee Gracia Simbar
+
   </footer>
 
 </body>

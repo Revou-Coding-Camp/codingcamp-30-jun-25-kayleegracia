@@ -46,3 +46,11 @@ html, body {
     margin: 5px 0;            /* Spasi antar link */
   }
 }
+
+footer {
+      border-top: 2px solid black;
+      padding: 10px;
+      text-align: right;
+      max-width: auto;
+      margin: 30px auto 0;
+}
