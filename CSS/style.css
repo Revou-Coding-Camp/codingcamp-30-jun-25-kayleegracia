@@ -31,7 +31,7 @@ html, body {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   nav {
     flex-direction: column;   /* Menu & logo stack ke bawah */
     align-items: center;      /* Pusatkan isi */
@@ -44,6 +44,21 @@ html, body {
   .menu a {
     display: block;           /* Biar menu ke bawah */
     margin: 5px 0;            /* Spasi antar link */
+  }
+
+  .container {
+    flex-direction: column; /* Susun ke bawah */
+    gap: 10px;
+  }
+
+  .container img {
+    width: 100%; /* Biar gambar nggak melebar */
+    height: auto;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
   }
 }
 
