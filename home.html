@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portofolio Kaylee</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header>
+    <nav class="bg-[#2c3d33]">
+      <div class="logo">
+        <img src="Screenshot 2025-07-04 11.01.58 PM.png" class="w-full h-auto" alt="Logo Portofolio" />
+      </div>
+      <div class="menu">
+        <a href="Home.html" class="bg-[#f9f6f0] ">Back</a>
+        <a href="#About-me" class="bg-[#f9f6f0] ">About me</a>
+        <a href="#Experience" class="bg-[#f9f6f0] ">Experience</a>
+        <a href="#Message" class="bg-[#f9f6f0] ">Message</a>
+      </div>
+    </nav>
+    <hr/>
+  </header>
+
+  <main>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src=JS/script.js></script>
+<section id="About-me" class="p-10 bg-cover min-h-[125px] p-30 w-full h-auto"  style="background-image: url('e (18).png') ">
+        <h1 class="md:text-4xl font-semibold italic tracking-wide leading-relaxed" id="greetingMessage"></h1>
+          <p id="welcomeMessage" class="text-2xl md:text-3xl font-semibold italic tracking-wide leading-relaxed"></p>
+
+        <h3 class=" text-x1 font-[Inter] text-base leading-relaxed">I’m currently a high school student with a big passion for design. <br/>I dream of becoming a UI/UX designer and keep improving my skills in <br/>graphic design, visual communication, and digital creativity.Through this portfolio,<br/> I want to showcase my  learning journey, personal projects, and creative works. <br/>Let’s grow together!</h3>
+
+        <br/>
+        <div class="inline-block border-yellow-400 rounded-md px-4 py-2 bg-[#f7a531] transition-transform duration-300 hover:scale-105">
+          <p class="text-black text-bold">
+          Follow me on Instagram:
+           <a href="https://www.instagram.com/k.a.y.l.e.e._g.s?igsh=b2VyZHVjb2w5Mjdy" target="_blank" class="text-black underline text-bold">
+             @k.a.y.l.e.e._g.s
+          </a>
+       </p>
+        </div>
+    </section>
+    <section id="Experience" ></section>
+    
+        <div>
+           <img src="Screenshot 2025-07-04 11.24.12 PM.png" alt="About me" class="w-full h-auto"/>
+           <div class="flex justify-center gap-3 " style="background-image: url('e (20).png')">
+              <div class="w-10 p-2 m-5 text-left w-full transition-transform duration-300 hover:scale-105">
+                <img src="Screenshot 2025-07-04 11.55.07 PM.png" alt="Experience1" class="w-full h-auto object-cover rounded-md" />
+                <h2 class="text-white mt-2 font-bold text-xl">Linda Art</h2>
+                <h3 class="text-wrap text-white mt-2 text-sm leading-relaxed">I have been passionate about art since I was a child. 
+                  From the age of 6 until junior high school, I took art lessons at Linda Art, 
+                  where I explored various techniques and media, such as crayons, watercolors, markers, and more.</h3>
+              </div>
+
+              <div class="w-10 p-2 m-5 text-left w-full transition-transform duration-300 hover:scale-105">
+                <img src="Screenshot 2025-07-04 11.56.12 PM.png" alt="Experience1" class="w-full h-auto object-cover rounded-md" />
+                <h2 class="text-white mt-2 font-bold text-xl">Titans</h2>
+                <h3 class="text-wrap text-white mt-2 text-sm leading-relaxed"> have been actively involved in my school organization,
+                  Titans, as part of the Creativity Division.Through this experience, 
+                  I collaborated with my peers to plan and execute creative projects </h3>
+              </div>
+
+               <div class="w-10 p-2 m-5 text-left w-full transition-transform duration-300 hover:scale-105">
+                <img src="Screenshot 2025-07-04 11.56.26 PM.png" alt="Experience1" class="w-full h-auto object-cover rounded-md" />
+                <h2 class="text-white mt-2 font-bold text-xl">Leaders.id</h2>
+                <h3 class="text-wrap text-white mt-2 text-sm leading-relaxed"> I actively take part in various poster design competitions, 
+                  such as Leader.id, to expand my portfolio, enhance my design skills, 
+                  and strengthen my CV for future opportunities.</h3>
+              </div>
+
+              <div class="w-10 p-2 m-5 text-left w-full transition-transform duration-300 hover:scale-105">
+                <img src="Screenshot 2025-07-04 11.56.36 PM.png" alt="Experience1" class="w-full h-auto object-cover rounded-md" />
+                <h2 class="text-white mt-2 font-bold text-xl">Courses & Workshops</h2>
+                <h3 class="text-wrap text-white mt-2 text-sm leading-relaxed"> In addition to studying animation, I have also attended various 
+                  classes in areas like Figma and software engineering. 
+                  These courses have helped me broaden my creative abilities.</h3>
+              </div>
+           </div>
+           </div>
+        </div>
+    <section>
+      <img src="Screenshot 2025-07-05 12.16.04 AM.png" alt="Experience1" class="w-full h-auto object-cover transition-transform duration-300 hover:scale-105" />
+    </section>
+
+    <hr/>
+    <section id="Message" class="p-10 m-5" style="background-image: url('e (22).png')">
+      <br/>
+      <div class="bg-black bg-opacity-40 p-10 rounded-2xl shadow-2xl max-w-md w-full transition-transform duration-300 hover:scale-105">
+  <h1 class="text-3xl font-bold text-white mb-6 drop-shadow-lg">Send a message</h1>
+  
+  <form onsubmit="return validateForm(event)" class="space-y-4 text-left">
+    <!-- Name -->
+    <div>
+      <label class="block text-white mb-1 font-medium">Name</label>
+      <div class="flex gap-2 text-white">
+        <input type="text" placeholder="First" id="firstname" name="name"
+          class="text-white w-1/2 px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+        <input type="text" placeholder="Last" id="lastname"
+          class="w-1/2 px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+      </div>
+    </div>
+
+    <!-- Email -->
+    <div class="text-white" id="email">
+      <label class="block text-white mb-1 font-medium">Email</label>
+      <input type="email" placeholder="name@gmail.com"
+        class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+    </div>
+
+    <!-- Tanggal Lahir -->
+    <div class="text-white" id="birthDate">
+      <label class="block text-white mb-1 font-medium">Tanggal Lahir</label>
+      <input type="date"
+        class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>
+    </div>
+
+    <!-- Jenis Kelamin -->
+    <div class="text-white" id="gender">
+      <label class="block text-white mb-1 font-medium">Jenis Kelamin</label>
+      <div class="flex items-center gap-4 text-white">
+        <label class="flex items-center gap-2">
+          <input type="radio" name="gender" value="Laki-Laki" class="accent-green-500"/> Laki-Laki
+        </label>
+        <label class="flex items-center gap-2">
+          <input type="radio" name="gender" value="Perempuan" class="accent-green-500"/> Perempuan
+        </label>
+      </div>
+    </div>
+
+    <!-- Pesan -->
+    <div class="text-white" id="message">
+      <label class="block text-white mb-1 font-medium">Pesan</label>
+      <textarea rows="4" placeholder="Tuliskan komentar kamu disini!"
+        class="w-full px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" onclick="window.location.href='thankyou.html'"
+      class="w-full bg-yellow-400 text-black font-semibold px-4 py-2 rounded hover:bg-yellow-500 hover:shadow-lg transition">
+      Submit
+    </button>
+  </form>
+</div>
+    </section>
+
+<!-- Quotes Section -->
+<section class="bg-black text-white py-8 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <hr class="border-gray-600 mb-4 w-3/4 mx-auto" />
+    <h1 class="text-2xl md:text-3xl font-semibold italic tracking-wide leading-relaxed">
+      “A small act of creativity today<br class="hidden md:inline">
+      can grow into a greener world tomorrow.”
+    </h1>
+  </div>
+      
+<div class="flex flex-col items-center">
+  <img src="5.webp" alt="Tanda tangan" class="w-60" />
+  <p class="mt-2 text-10 font-semibold"><i>- Kaylee Gracia Simbar -</i></p>
+</div>
+
+<footer class="bg-black text-white text-sm py-3">
+  <hr class="border-gray-600 w-auto mx-auto mb-2" />
+  <p class="text-center">© 2025 Kaylee Gracia · All Rights Reserved</p>
+</footer>
+
+
+
+</section>
+
+
+
+
+
+</body>
+</html>
